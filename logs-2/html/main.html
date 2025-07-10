@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"/>
+    <title>Logs</title>
+</head>
+<body>
+<div id="theme-toggle">
+    <button id="theme-button">
+        <i class="fas fa-moon"></i>
+    </button>
+</div>
+<div class="container">
+    <h1>Board Printing Logs</h1>
+    <label for="searchInput">Search Logs:</label>
+    <input type="text" id="searchInput" placeholder="Search by board name...">
+    <table id="logsTable">
+        <thead>
+        <tr>
+            <th onclick="sortTable(0)" class="sortable"><span>Board</span><i class="fas fa-chevron-up"></i></th>
+            <th onclick="sortTable(1)" class="sortable"><span>Count</span><i class="fas fa-chevron-up"></i></th>
+        </tr>
+        </thead>
+        <tbody id="logsBody"></tbody>
+    </table>
+</div>
+<script src="../js/script.js"></script>
+<!--<script src="../js/noapi.js"></script>-->
+</body>
+</html>

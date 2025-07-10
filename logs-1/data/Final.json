@@ -1,0 +1,899 @@
+[
+  {
+    "PartNumber": "703003734AA",
+    "TestStation": "Final",
+    "EntityType": "Tester_01",
+    "ProductLine": "ASSY-001-FINAL",
+    "TestToolVersion": "2.0.1",
+    "TestFinishedTime": "20250626092351",
+    "IsAllPassed": true,
+    "ErrorCodes": "",
+    "TcuPCBANumber": "H8444A11100S60305193\r",
+    "LogisticData": {
+      "PCBANumber": "H8444A11100S60305193",
+      "ProductSN": "YCOT1EBF5245193#",
+      "PartNumber": "703003734AA",
+      "VPAppVersion": "S8ZD303T1ED7",
+      "VPBootLoaderVersion": "40.00.07",
+      "VPCoreVersion": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+      "SupplierHardwareVersion": "H8444A11100",
+      "ManufacturerHardwareVersion": "0.0.1",
+      "ManufacturerSoftwareVersion": "02.01.02",
+      "BleMac": "",
+      "BleSN": "",
+      "BleVersion": "",
+      "BlePassworkKey": "",
+      "APAppVersion": "T1EDA322L0142K0009",
+      "APKernelVersion": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+      "TcuICCID": "89701011059098031925",
+      "PhoneNumber": "",
+      "IMEI": "866785070241400",
+      "IMSI": "250015909803192",
+      "ProductionDate": "20250624"
+    },
+    "tests": [
+      {
+        "TestStepName": "MES Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "Ingore MES check",
+        "TestStepElapsedTime": 0,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F002"
+      },
+      {
+        "TestStepName": "DUT Power On",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 56,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F003"
+      },
+      {
+        "TestStepName": "Delay 3 Seconds",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 3046,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F201"
+      },
+      {
+        "TestStepName": "Once Enable Security Access",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 204,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F202"
+      },
+      {
+        "TestStepName": "Exit Aging Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 96,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F012"
+      },
+      {
+        "TestStepName": "Check Exit Aging Test",
+        "TestThresholdValue": "NoAging Or AgingSuccess",
+        "TestMeasuredValue": "0",
+        "TestStepElapsedTime": 86,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F013"
+      },
+      {
+        "TestStepName": "Enter Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 104,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F009"
+      },
+      {
+        "TestStepName": "Compare PCBA Serial Number",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "H8444A11100S60305193",
+        "TestStepElapsedTime": 94,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F015"
+      },
+      {
+        "TestStepName": "Get Product Serial Number",
+        "TestThresholdValue": "YCOT1EBF5245193#",
+        "TestMeasuredValue": "YCOT1EBF5245193#",
+        "TestStepElapsedTime": 95,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F016"
+      },
+      {
+        "TestStepName": "Get MCU Bootloader Version",
+        "TestThresholdValue": "40.00.07",
+        "TestMeasuredValue": "40.00.07",
+        "TestStepElapsedTime": 96,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F017"
+      },
+      {
+        "TestStepName": "Get MCU Core Version",
+        "TestThresholdValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestMeasuredValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestStepElapsedTime": 88,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F018"
+      },
+      {
+        "TestStepName": "Get MCU APP Version",
+        "TestThresholdValue": "S8ZD303T1ED7",
+        "TestMeasuredValue": "S8ZD303T1ED7",
+        "TestStepElapsedTime": 94,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F019"
+      },
+      {
+        "TestStepName": "Get Manufacturer Software Version",
+        "TestThresholdValue": "02.01.02",
+        "TestMeasuredValue": "02.01.02",
+        "TestStepElapsedTime": 94,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F020"
+      },
+      {
+        "TestStepName": "Get Manufacturer Hardware Version",
+        "TestThresholdValue": "0.0.1",
+        "TestMeasuredValue": "0.0.1",
+        "TestStepElapsedTime": 85,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F021"
+      },
+      {
+        "TestStepName": "Get Supplier Hardware Version",
+        "TestThresholdValue": "H8444A11100",
+        "TestMeasuredValue": "H8444A11100",
+        "TestStepElapsedTime": 92,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F022"
+      },
+      {
+        "TestStepName": "Get TCU Part Number",
+        "TestThresholdValue": "703003734AA",
+        "TestMeasuredValue": "703003734AA",
+        "TestStepElapsedTime": 89,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F023"
+      },
+      {
+        "TestStepName": "Get TCU Product Date",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "20250624",
+        "TestStepElapsedTime": 85,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F025"
+      },
+      {
+        "TestStepName": "RTC Time Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 2183,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F030"
+      },
+      {
+        "TestStepName": "CAN1 Communication Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 56,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F031"
+      },
+      {
+        "TestStepName": "Waiting For Modem Initialized",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 38148,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F050"
+      },
+      {
+        "TestStepName": "Exit AP Product Line Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 117,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F052"
+      },
+      {
+        "TestStepName": "Get Modem Network Status",
+        "TestThresholdValue": "\\nNetwork Reg Status:REGISTERED\\r\\nSIM Status:READY\\r\\nNetwork Mode:Network_4G\\r\\nCSQ:[15,31]",
+        "TestMeasuredValue": "\\nNetwork Reg Status:REGISTERED\\r\\nSIM Status:READY\\r\\nNetwork Mode:Network_4G\\r\\nCSQ:25",
+        "TestStepElapsedTime": 0,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F057"
+      },
+      {
+        "TestStepName": "Get WMOD Pin Status",
+        "TestThresholdValue": "High",
+        "TestMeasuredValue": "High",
+        "TestStepElapsedTime": 76,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F058"
+      },
+      {
+        "TestStepName": "Get ARM APP Version",
+        "TestThresholdValue": "T1EDA322L0142K0009",
+        "TestMeasuredValue": "T1EDA322L0142K0009",
+        "TestStepElapsedTime": 136,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F060"
+      },
+      {
+        "TestStepName": "Get ARM Kernel Version",
+        "TestThresholdValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestMeasuredValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestStepElapsedTime": 122,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F061"
+      },
+      {
+        "TestStepName": "Get SPI&Uart Self Test Result",
+        "TestThresholdValue": "AllSuccess",
+        "TestMeasuredValue": "AllSuccess",
+        "TestStepElapsedTime": 83,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F064"
+      },
+      {
+        "TestStepName": "GNSS Positioning Detection",
+        "TestThresholdValue": "Located",
+        "TestMeasuredValue": "Located",
+        "TestStepElapsedTime": 31018,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F065"
+      },
+      {
+        "TestStepName": "Get APN Connect Status",
+        "TestThresholdValue": "\\n   APN1 Status:Connected\\n   APN2 Status:Connected",
+        "TestMeasuredValue": "\\n   APN1 Status:Connected\\n   APN2 Status:Connected",
+        "TestStepElapsedTime": 121,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F062"
+      },
+      {
+        "TestStepName": "Diagnostic Trouble Code Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 135,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F069"
+      },
+      {
+        "TestStepName": "Exit MCU Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 91,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F010"
+      },
+      {
+        "TestStepName": "Get Product Line Mode Status",
+        "TestThresholdValue": "00",
+        "TestMeasuredValue": "00",
+        "TestStepElapsedTime": 123,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F053"
+      },
+      {
+        "TestStepName": "KL30 OFF",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 35,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F006"
+      },
+      {
+        "TestStepName": "Enter Transport Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 1015,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F072"
+      }
+    ]
+  },
+  {
+    "PartNumber": "703003734AA",
+    "TestStation": "Final",
+    "EntityType": "Tester_01",
+    "ProductLine": "ASSY-001-FINAL",
+    "TestToolVersion": "2.0.1",
+    "TestFinishedTime": "20250626084733",
+    "IsAllPassed": true,
+    "ErrorCodes": "",
+    "TcuPCBANumber": "H8444A11100S60204494",
+    "LogisticData": {
+      "PCBANumber": "H8444A11100S60204494",
+      "ProductSN": "YCOT1EBF5244494#",
+      "PartNumber": "703003734AA",
+      "VPAppVersion": "S8ZD303T1ED7",
+      "VPBootLoaderVersion": "40.00.07",
+      "VPCoreVersion": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+      "SupplierHardwareVersion": "H8444A11100",
+      "ManufacturerHardwareVersion": "0.0.1",
+      "ManufacturerSoftwareVersion": "02.01.02",
+      "BleMac": "",
+      "BleSN": "",
+      "BleVersion": "",
+      "BlePassworkKey": "",
+      "APAppVersion": "T1EDA322L0142K0009",
+      "APKernelVersion": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+      "TcuICCID": "89701011059098034937",
+      "PhoneNumber": "",
+      "IMEI": "866785070251631",
+      "IMSI": "250015909803493",
+      "ProductionDate": "20250624"
+    },
+    "tests": [
+      {
+        "TestStepName": "MES Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "Ingore MES check",
+        "TestStepElapsedTime": 0,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F002"
+      },
+      {
+        "TestStepName": "DUT Power On",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 79,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F003"
+      },
+      {
+        "TestStepName": "Delay 3 Seconds",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 3046,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F201"
+      },
+      {
+        "TestStepName": "Once Enable Security Access",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 206,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F202"
+      },
+      {
+        "TestStepName": "Exit Aging Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 88,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F012"
+      },
+      {
+        "TestStepName": "Check Exit Aging Test",
+        "TestThresholdValue": "NoAging Or AgingSuccess",
+        "TestMeasuredValue": 0,
+        "TestStepElapsedTime": 94,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F013"
+      },
+      {
+        "TestStepName": "Enter Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 106,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F009"
+      },
+      {
+        "TestStepName": "Compare PCBA Serial Number",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "H8444A11100S60204494",
+        "TestStepElapsedTime": 99,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F015"
+      },
+      {
+        "TestStepName": "Get Product Serial Number",
+        "TestThresholdValue": "YCOT1EBF5244494#",
+        "TestMeasuredValue": "YCOT1EBF5244494#",
+        "TestStepElapsedTime": 87,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F016"
+      },
+      {
+        "TestStepName": "Get MCU Bootloader Version",
+        "TestThresholdValue": "40.00.07",
+        "TestMeasuredValue": "40.00.07",
+        "TestStepElapsedTime": 93,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F017"
+      },
+      {
+        "TestStepName": "Get MCU Core Version",
+        "TestThresholdValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestMeasuredValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestStepElapsedTime": 95,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F018"
+      },
+      {
+        "TestStepName": "Get MCU APP Version",
+        "TestThresholdValue": "S8ZD303T1ED7",
+        "TestMeasuredValue": "S8ZD303T1ED7",
+        "TestStepElapsedTime": 85,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F019"
+      },
+      {
+        "TestStepName": "Get Manufacturer Software Version",
+        "TestThresholdValue": "02.01.02",
+        "TestMeasuredValue": "02.01.02",
+        "TestStepElapsedTime": 92,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F020"
+      },
+      {
+        "TestStepName": "Get Manufacturer Hardware Version",
+        "TestThresholdValue": "0.0.1",
+        "TestMeasuredValue": "0.0.1",
+        "TestStepElapsedTime": 89,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F021"
+      },
+      {
+        "TestStepName": "Get Supplier Hardware Version",
+        "TestThresholdValue": "H8444A11100",
+        "TestMeasuredValue": "H8444A11100",
+        "TestStepElapsedTime": 95,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F022"
+      },
+      {
+        "TestStepName": "Get TCU Part Number",
+        "TestThresholdValue": "703003734AA",
+        "TestMeasuredValue": "703003734AA",
+        "TestStepElapsedTime": 96,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F023"
+      },
+      {
+        "TestStepName": "Get TCU Product Date",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "20250624",
+        "TestStepElapsedTime": 77,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F025"
+      },
+      {
+        "TestStepName": "RTC Time Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 2170,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F030"
+      },
+      {
+        "TestStepName": "CAN1 Communication Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 62,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F031"
+      },
+      {
+        "TestStepName": "Waiting For Modem Initialized",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 38129,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F050"
+      },
+      {
+        "TestStepName": "Exit AP Product Line Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 120,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F052"
+      },
+      {
+        "TestStepName": "Get Modem Network Status",
+        "TestThresholdValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:[15,31]",
+        "TestMeasuredValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:18",
+        "TestStepElapsedTime": 1,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F057"
+      },
+      {
+        "TestStepName": "Get WMOD Pin Status",
+        "TestThresholdValue": "High",
+        "TestMeasuredValue": "High",
+        "TestStepElapsedTime": 89,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F058"
+      },
+      {
+        "TestStepName": "Get ARM APP Version",
+        "TestThresholdValue": "T1EDA322L0142K0009",
+        "TestMeasuredValue": "T1EDA322L0142K0009",
+        "TestStepElapsedTime": 143,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F060"
+      },
+      {
+        "TestStepName": "Get ARM Kernel Version",
+        "TestThresholdValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestMeasuredValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestStepElapsedTime": 154,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F061"
+      },
+      {
+        "TestStepName": "Get SPI&Uart Self Test Result",
+        "TestThresholdValue": "AllSuccess",
+        "TestMeasuredValue": "AllSuccess",
+        "TestStepElapsedTime": 85,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F064"
+      },
+      {
+        "TestStepName": "GNSS Positioning Detection",
+        "TestThresholdValue": "Located",
+        "TestMeasuredValue": "Located",
+        "TestStepElapsedTime": 23186,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F065"
+      },
+      {
+        "TestStepName": "Get APN Connect Status",
+        "TestThresholdValue": "\n   APN1 Status:Connected\n   APN2 Status:Connected",
+        "TestMeasuredValue": "\n   APN1 Status:Connected\n   APN2 Status:Connected",
+        "TestStepElapsedTime": 135,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F062"
+      },
+      {
+        "TestStepName": "Diagnostic Trouble Code Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 195,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F069"
+      },
+      {
+        "TestStepName": "Exit MCU Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 2107,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F010"
+      },
+      {
+        "TestStepName": "Get Product Line Mode Status",
+        "TestThresholdValue": "00",
+        "TestMeasuredValue": "00",
+        "TestStepElapsedTime": 134,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F053"
+      },
+      {
+        "TestStepName": "KL30 OFF",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 30,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F006"
+      },
+      {
+        "TestStepName": "Enter Transport Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 1015,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F072"
+      }
+    ]
+  },
+  {
+    "PartNumber": "703003734AA",
+    "TestStation": "Final",
+    "EntityType": "Tester_01",
+    "ProductLine": "ASSY-001-FINAL",
+    "TestToolVersion": "2.0.1",
+    "TestFinishedTime": "20250623150241",
+    "IsAllPassed": true,
+    "ErrorCodes": "",
+    "TcuPCBANumber": "H8444A11100S60304624",
+    "LogisticData": {
+      "PCBANumber": "H8444A11100S60304624",
+      "ProductSN": "YCOT1EBF5234624#",
+      "PartNumber": "703003734AA",
+      "VPAppVersion": "S8ZD303T1ED7",
+      "VPBootLoaderVersion": "40.00.07",
+      "VPCoreVersion": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+      "SupplierHardwareVersion": "H8444A11100",
+      "ManufacturerHardwareVersion": "0.0.1",
+      "ManufacturerSoftwareVersion": "02.01.02",
+      "BleMac": "",
+      "BleSN": "",
+      "BleVersion": "",
+      "BlePassworkKey": "",
+      "APAppVersion": "T1EDA322L0142K0009",
+      "APKernelVersion": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+      "TcuICCID": "89701011059098034416",
+      "PhoneNumber": "",
+      "IMEI": "866785070250641",
+      "IMSI": "250015909803441",
+      "ProductionDate": "20250623"
+    },
+    "tests": [
+      {
+        "TestStepName": "MES Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "Ingore MES check",
+        "TestStepElapsedTime": 0,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F002"
+      },
+      {
+        "TestStepName": "DUT Power On",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 56,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F003"
+      },
+      {
+        "TestStepName": "Delay 3 Seconds",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 3046,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F201"
+      },
+      {
+        "TestStepName": "Once Enable Security Access",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 164,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F202"
+      },
+      {
+        "TestStepName": "Exit Aging Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 93,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F012"
+      },
+      {
+        "TestStepName": "Check Exit Aging Test",
+        "TestThresholdValue": "NoAging Or AgingSuccess",
+        "TestMeasuredValue": "0",
+        "TestStepElapsedTime": 89,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F013"
+      },
+      {
+        "TestStepName": "Enter Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 107,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F009"
+      },
+      {
+        "TestStepName": "Compare PCBA Serial Number",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "H8444A11100S60304624",
+        "TestStepElapsedTime": 87,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F015"
+      },
+      {
+        "TestStepName": "Get Product Serial Number",
+        "TestThresholdValue": "YCOT1EBF5234624#",
+        "TestMeasuredValue": "YCOT1EBF5234624#",
+        "TestStepElapsedTime": 93,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F016"
+      },
+      {
+        "TestStepName": "Get MCU Bootloader Version",
+        "TestThresholdValue": "40.00.07",
+        "TestMeasuredValue": "40.00.07",
+        "TestStepElapsedTime": 90,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F017"
+      },
+      {
+        "TestStepName": "Get MCU Core Version",
+        "TestThresholdValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestMeasuredValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+        "TestStepElapsedTime": 87,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F018"
+      },
+      {
+        "TestStepName": "Get MCU APP Version",
+        "TestThresholdValue": "S8ZD303T1ED7",
+        "TestMeasuredValue": "S8ZD303T1ED7",
+        "TestStepElapsedTime": 93,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F019"
+      },
+      {
+        "TestStepName": "Get Manufacturer Software Version",
+        "TestThresholdValue": "02.01.02",
+        "TestMeasuredValue": "02.01.02",
+        "TestStepElapsedTime": 90,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F020"
+      },
+      {
+        "TestStepName": "Get Manufacturer Hardware Version",
+        "TestThresholdValue": "0.0.1",
+        "TestMeasuredValue": "0.0.1",
+        "TestStepElapsedTime": 86,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F021"
+      },
+      {
+        "TestStepName": "Get Supplier Hardware Version",
+        "TestThresholdValue": "H8444A11100",
+        "TestMeasuredValue": "H8444A11100",
+        "TestStepElapsedTime": 93,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F022"
+      },
+      {
+        "TestStepName": "Get TCU Part Number",
+        "TestThresholdValue": "703003734AA",
+        "TestMeasuredValue": "703003734AA",
+        "TestStepElapsedTime": 89,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F023"
+      },
+      {
+        "TestStepName": "Get TCU Product Date",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "20250623",
+        "TestStepElapsedTime": 86,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F025"
+      },
+      {
+        "TestStepName": "RTC Time Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 2183,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F030"
+      },
+      {
+        "TestStepName": "CAN1 Communication Test",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 58,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F031"
+      },
+      {
+        "TestStepName": "Waiting For Modem Initialized",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 38319,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F050"
+      },
+      {
+        "TestStepName": "Exit AP Product Line Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 116,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F052"
+      },
+      {
+        "TestStepName": "Get Modem Network Status",
+        "TestThresholdValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:[15,31]",
+        "TestMeasuredValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:18",
+        "TestStepElapsedTime": 0,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F057"
+      },
+      {
+        "TestStepName": "Get WMOD Pin Status",
+        "TestThresholdValue": "High",
+        "TestMeasuredValue": "High",
+        "TestStepElapsedTime": 85,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F058"
+      },
+      {
+        "TestStepName": "Get ARM APP Version",
+        "TestThresholdValue": "T1EDA322L0142K0009",
+        "TestMeasuredValue": "T1EDA322L0142K0009",
+        "TestStepElapsedTime": 139,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F060"
+      },
+      {
+        "TestStepName": "Get ARM Kernel Version",
+        "TestThresholdValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestMeasuredValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+        "TestStepElapsedTime": 146,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F061"
+      },
+      {
+        "TestStepName": "Get SPI&Uart Self Test Result",
+        "TestThresholdValue": "AllSuccess",
+        "TestMeasuredValue": "AllSuccess",
+        "TestStepElapsedTime": 86,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F064"
+      },
+      {
+        "TestStepName": "GNSS Positioning Detection",
+        "TestThresholdValue": "Located",
+        "TestMeasuredValue": "Located",
+        "TestStepElapsedTime": 32251,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F065"
+      },
+      {
+        "TestStepName": "Get APN Connect Status",
+        "TestThresholdValue": "\n   APN1 Status:Connected\n   APN2 Status:Connected",
+        "TestMeasuredValue": "\n   APN1 Status:Connected\n   APN2 Status:Connected",
+        "TestStepElapsedTime": 129,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F062"
+      },
+      {
+        "TestStepName": "Diagnostic Trouble Code Check",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 108,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F069"
+      },
+      {
+        "TestStepName": "Exit MCU Factory Test Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 95,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F010"
+      },
+      {
+        "TestStepName": "Get Product Line Mode Status",
+        "TestThresholdValue": "00",
+        "TestMeasuredValue": "00",
+        "TestStepElapsedTime": 117,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F053"
+      },
+      {
+        "TestStepName": "KL30 OFF",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 29,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F006"
+      },
+      {
+        "TestStepName": "Enter Transport Mode",
+        "TestThresholdValue": "",
+        "TestMeasuredValue": "",
+        "TestStepElapsedTime": 1015,
+        "TestStepResult": "Passed",
+        "TestStepErrorCode": "F072"
+      }
+    ]
+  }
+]

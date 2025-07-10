@@ -1,0 +1,24 @@
+[
+    {
+        "TestStation": "Download",
+        "FlashEntityType": "FlashEntity_01",
+        "TcuPCBANumber": "H8444A11100S60304659\r",
+        "FlashElapsedTime": 0,
+        "TcuEntityFlashState": "Flashed",
+        "PartNumber": "703003183AA",
+        "ProductLine": "ZD444",
+        "DownloadToolVersion": "2.0.4",
+        "DownloadFinishedTime": "20250623083930"
+    },
+    {
+        "TestStation": "Download",
+        "FlashEntityType": "FlashEntity_01",
+        "TcuPCBANumber": "H8444A11100S60304624\r",
+        "FlashElapsedTime": 0,
+        "TcuEntityFlashState": "Flashed",
+        "PartNumber": "703003183AA",
+        "ProductLine": "ZD444",
+        "DownloadToolVersion": "2.0.4",
+        "DownloadFinishedTime": "20250623084710"
+    }
+]

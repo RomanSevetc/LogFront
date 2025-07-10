@@ -1,0 +1,728 @@
+[
+    {
+        "PartNumber": "703003734AA",
+        "TestStation": "PCBA",
+        "EntityType": "Tester_01",
+        "ProductLine": "ASSY-001-PBCA",
+        "TestToolVersion": "2.0.1",
+        "TestFinishedTime": "20250623084154",
+        "IsAllPassed": true,
+        "ErrorCodes": "",
+        "TcuPCBANumber": "H8444A11100S60304659\r",
+        "LogisticData": {
+            "PCBANumber": "H8444A11100S60304659",
+            "ProductSN": "YCOT1EBF5234659#",
+            "PartNumber": "703003734AA",
+            "VPAppVersion": "S8ZD303T1ED7",
+            "VPBootLoaderVersion": "",
+            "VPCoreVersion": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+            "SupplierHardwareVersion": "H8444A11100",
+            "ManufacturerHardwareVersion": "0.0.1",
+            "ManufacturerSoftwareVersion": "02.01.02",
+            "BleMac": "",
+            "BleSN": "",
+            "BleVersion": "",
+            "BlePassworkKey": "",
+            "APAppVersion": "T1EDA322L0142K0009",
+            "APKernelVersion": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+            "TcuICCID": "89701011059098034200",
+            "PhoneNumber": "",
+            "IMEI": "866785070250906",
+            "IMSI": "250015909803420",
+            "ProductionDate": "20250623"
+        },
+        "tests": [
+            {
+                "TestStepName": "PCBA Scan",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "H8444A11100S60304578",
+                "TestStepElapsedTime": 114,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P003"
+            },
+            {
+                "TestStepName": "DUT Power On",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 61,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P005"
+            },
+            {
+                "TestStepName": "Delay 3 Seconds",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 3046,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P301"
+            },
+            {
+                "TestStepName": "Always Enable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 158,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P013"
+            },
+            {
+                "TestStepName": "Enter Factory Test Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 88,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P011"
+            },
+            {
+                "TestStepName": "TBOX KL30 Voltage After The Diode",
+                "TestThresholdValue": "3V~4.35V",
+                "TestMeasuredValue": "3.83V",
+                "TestStepElapsedTime": 143,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P030"
+            },
+            {
+                "TestStepName": "SYS_4V0 System Operating Voltage",
+                "TestThresholdValue": "3.8V~4.2V",
+                "TestMeasuredValue": "4.01V",
+                "TestStepElapsedTime": 138,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P031"
+            },
+            {
+                "TestStepName": "MCU-3.3VD Voltage",
+                "TestThresholdValue": "3.15V~3.45V",
+                "TestMeasuredValue": "3.31V",
+                "TestStepElapsedTime": 137,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P032"
+            },
+            {
+                "TestStepName": "NAD-4V Voltage",
+                "TestThresholdValue": "3.8V~4.2V",
+                "TestMeasuredValue": "4.01V",
+                "TestStepElapsedTime": 138,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P033"
+            },
+            {
+                "TestStepName": "CAN-5V Voltage",
+                "TestThresholdValue": "4.75V~5.25V",
+                "TestMeasuredValue": "4.99V",
+                "TestStepElapsedTime": 157,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P034"
+            },
+            {
+                "TestStepName": "MCU-3.3VD Voltage",
+                "TestThresholdValue": "3.15V~3.45V",
+                "TestMeasuredValue": "3.31V",
+                "TestStepElapsedTime": 135,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P032"
+            },
+            {
+                "TestStepName": "GNSS-ANT-5V Supply Voltage",
+                "TestThresholdValue": "4.75V~5.25V",
+                "TestMeasuredValue": "4.9V",
+                "TestStepElapsedTime": 135,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P036"
+            },
+            {
+                "TestStepName": "CAN1_H Voltage",
+                "TestThresholdValue": "2.25V~2.75V",
+                "TestMeasuredValue": "3.3V",
+                "TestStepElapsedTime": 205,
+                "TestStepResult": "Failed",
+                "TestStepErrorCode": "P063"
+            },
+            {
+                "TestStepName": "CAN1_L Voltage",
+                "TestThresholdValue": "2.25V~2.75V",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P064"
+            },
+            {
+                "TestStepName": "RTC Time Test",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P170"
+            },
+            {
+                "TestStepName": "Delay 10 Seconds",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P301"
+            },
+            {
+                "TestStepName": "CAN1 Communication Test",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P171"
+            },
+            {
+                "TestStepName": "Get MCU Core Version",
+                "TestThresholdValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P180"
+            },
+            {
+                "TestStepName": "Get MCU APP Version",
+                "TestThresholdValue": "S8ZD303T1ED7",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P181"
+            },
+            {
+                "TestStepName": "Get Manufacturer Software Version",
+                "TestThresholdValue": "02.01.02",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P182"
+            },
+            {
+                "TestStepName": "Get Manufacturer Hardware Version",
+                "TestThresholdValue": "0.0.1",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P183"
+            },
+            {
+                "TestStepName": "Write PCBA Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P184"
+            },
+            {
+                "TestStepName": "Write TCU Product Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P186"
+            },
+            {
+                "TestStepName": "Write Supplier Hardware Version",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P188"
+            },
+            {
+                "TestStepName": "Get TCU Part Number",
+                "TestThresholdValue": "703003734AA",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P194"
+            },
+            {
+                "TestStepName": "Waiting For Modem Initialized",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P200"
+            },
+            {
+                "TestStepName": "Enter Airplane Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P203"
+            },
+            {
+                "TestStepName": "Get Modem Network Status",
+                "TestThresholdValue": "\\nNetwork Reg Status:REGISTERED\\r\\nSIM Status:READY\\r\\nNetwork Mode:Network_4G\\r\\nCSQ:[15,31]",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P201"
+            },
+            {
+                "TestStepName": "Write Product Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P190"
+            },
+            {
+                "TestStepName": "Get ARM APP Version",
+                "TestThresholdValue": "T1EDA322L0142K0009",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P240"
+            },
+            {
+                "TestStepName": "Get ARM Kernel Version",
+                "TestThresholdValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P241"
+            },
+            {
+                "TestStepName": "TCU Suspend Current Test",
+                "TestThresholdValue": "1mA~3mA",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P260"
+            },
+            {
+                "TestStepName": "TCU Restore To Normal Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P261"
+            },
+            {
+                "TestStepName": "Always Enable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P013"
+            },
+            {
+                "TestStepName": "Get Supplier Hardware Version",
+                "TestThresholdValue": "H8444A11100",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P189"
+            },
+            {
+                "TestStepName": "Get TCU Product Date",
+                "TestThresholdValue": "20250623",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P187"
+            },
+            {
+                "TestStepName": "Compare PCBA Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P185"
+            },
+            {
+                "TestStepName": "Get Product Serial Number",
+                "TestThresholdValue": "YCOT1EBF5234624#",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P191"
+            },
+            {
+                "TestStepName": "TCU Enter Aging Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P263"
+            },
+            {
+                "TestStepName": "Disable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P015"
+            },
+            {
+                "TestStepName": "DUT Power Off",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Unprocessed",
+                "TestStepErrorCode": "P006"
+            }
+        ]
+    },
+    {
+        "PartNumber": "703003734AA",
+        "TestStation": "PCBA",
+        "EntityType": "Tester_01",
+        "ProductLine": "ASSY-001-PBCA",
+        "TestToolVersion": "2.0.1",
+        "TestFinishedTime": "20250623084926",
+        "IsAllPassed": true,
+        "ErrorCodes": "",
+        "TcuPCBANumber": "H8444A11100S60304624",
+        "LogisticData": {
+            "PCBANumber": "H8444A11100S60304624",
+            "ProductSN": "YCOT1EBF5234624#",
+            "PartNumber": "703003734AA",
+            "VPAppVersion": "S8ZD303T1ED7",
+            "VPBootLoaderVersion": "",
+            "VPCoreVersion": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+            "SupplierHardwareVersion": "H8444A11100",
+            "ManufacturerHardwareVersion": "0.0.1",
+            "ManufacturerSoftwareVersion": "02.01.02",
+            "BleMac": "",
+            "BleSN": "",
+            "BleVersion": "",
+            "BlePassworkKey": "",
+            "APAppVersion": "T1EDA322L0142K0009",
+            "APKernelVersion": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+            "TcuICCID": "89701011059098034416",
+            "PhoneNumber": "",
+            "IMEI": "866785070250641",
+            "IMSI": "250015909803441",
+            "ProductionDate": "20250623"
+        },
+        "tests": [
+            {
+                "TestStepName": "PCBA Scan",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "H8444A11100S60304624",
+                "TestStepElapsedTime": 128,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P003"
+            },
+            {
+                "TestStepName": "DUT Power On",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 59,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P005"
+            },
+            {
+                "TestStepName": "Delay 3 Seconds",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 3046,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P301"
+            },
+            {
+                "TestStepName": "Always Enable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 176,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P013"
+            },
+            {
+                "TestStepName": "Enter Factory Test Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 90,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P011"
+            },
+            {
+                "TestStepName": "TBOX KL30 Voltage After The Diode",
+                "TestThresholdValue": "3V~4.35V",
+                "TestMeasuredValue": "3.83V",
+                "TestStepElapsedTime": 136,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P030"
+            },
+            {
+                "TestStepName": "SYS_4V0 System Operating Voltage",
+                "TestThresholdValue": "3.8V~4.2V",
+                "TestMeasuredValue": "4.02V",
+                "TestStepElapsedTime": 135,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P031"
+            },
+            {
+                "TestStepName": "MCU-3.3VD Voltage",
+                "TestThresholdValue": "3.15V~3.45V",
+                "TestMeasuredValue": "3.29V",
+                "TestStepElapsedTime": 135,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P032"
+            },
+            {
+                "TestStepName": "NAD-4V Voltage",
+                "TestThresholdValue": "3.8V~4.2V",
+                "TestMeasuredValue": "4.01V",
+                "TestStepElapsedTime": 145,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P033"
+            },
+            {
+                "TestStepName": "CAN-5V Voltage",
+                "TestThresholdValue": "4.75V~5.25V",
+                "TestMeasuredValue": "5.02V",
+                "TestStepElapsedTime": 149,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P034"
+            },
+            {
+                "TestStepName": "MCU-3.3VD Voltage",
+                "TestThresholdValue": "3.15V~3.45V",
+                "TestMeasuredValue": "3.29V",
+                "TestStepElapsedTime": 143,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P032"
+            },
+            {
+                "TestStepName": "GNSS-ANT-5V Supply Voltage",
+                "TestThresholdValue": "4.75V~5.25V",
+                "TestMeasuredValue": "4.89V",
+                "TestStepElapsedTime": 137,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P036"
+            },
+            {
+                "TestStepName": "CAN1_H Voltage",
+                "TestThresholdValue": "2.25V~2.75V",
+                "TestMeasuredValue": "2.49V",
+                "TestStepElapsedTime": 197,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P063"
+            },
+            {
+                "TestStepName": "CAN1_L Voltage",
+                "TestThresholdValue": "2.25V~2.75V",
+                "TestMeasuredValue": "2.49V",
+                "TestStepElapsedTime": 204,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P064"
+            },
+            {
+                "TestStepName": "RTC Time Test",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 2156,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P170"
+            },
+            {
+                "TestStepName": "Delay 10 Seconds",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 10153,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P301"
+            },
+            {
+                "TestStepName": "CAN1 Communication Test",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 61,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P171"
+            },
+            {
+                "TestStepName": "Get MCU Core Version",
+                "TestThresholdValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+                "TestMeasuredValue": "Dolphin Core:4.2.0.; Project:YTME0_30; Built:2025-02-24 19:26:40; BUILD_NUMBER: 32",
+                "TestStepElapsedTime": 89,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P180"
+            },
+            {
+                "TestStepName": "Get MCU APP Version",
+                "TestThresholdValue": "S8ZD303T1ED7",
+                "TestMeasuredValue": "S8ZD303T1ED7",
+                "TestStepElapsedTime": 84,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P181"
+            },
+            {
+                "TestStepName": "Get Manufacturer Software Version",
+                "TestThresholdValue": "02.01.02",
+                "TestMeasuredValue": "02.01.02",
+                "TestStepElapsedTime": 81,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P182"
+            },
+            {
+                "TestStepName": "Get Manufacturer Hardware Version",
+                "TestThresholdValue": "0.0.1",
+                "TestMeasuredValue": "0.0.1",
+                "TestStepElapsedTime": 87,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P183"
+            },
+            {
+                "TestStepName": "Write PCBA Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "H8444A11100S60304624",
+                "TestStepElapsedTime": 105,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P184"
+            },
+            {
+                "TestStepName": "Write TCU Product Date",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "20250623",
+                "TestStepElapsedTime": 96,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P186"
+            },
+            {
+                "TestStepName": "Write Supplier Hardware Version",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "H8444A11100",
+                "TestStepElapsedTime": 87,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P188"
+            },
+            {
+                "TestStepName": "Get TCU Part Number",
+                "TestThresholdValue": "703003734AA",
+                "TestMeasuredValue": "703003734AA",
+                "TestStepElapsedTime": 93,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P194"
+            },
+            {
+                "TestStepName": "Waiting For Modem Initialized",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 30670,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P200"
+            },
+            {
+                "TestStepName": "Enter Airplane Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 126,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P203"
+            },
+            {
+                "TestStepName": "Get Modem Network Status",
+                "TestThresholdValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:[15,31]",
+                "TestMeasuredValue": "\nNetwork Reg Status:REGISTERED\r\nSIM Status:READY\r\nNetwork Mode:Network_4G\r\nCSQ:25",
+                "TestStepElapsedTime": 0,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P201"
+            },
+            {
+                "TestStepName": "Write Product Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "YCOT1EBF5234624#",
+                "TestStepElapsedTime": 96,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P190"
+            },
+            {
+                "TestStepName": "Get ARM APP Version",
+                "TestThresholdValue": "T1EDA322L0142K0009",
+                "TestMeasuredValue": "T1EDA322L0142K0009",
+                "TestStepElapsedTime": 129,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P240"
+            },
+            {
+                "TestStepName": "Get ARM Kernel Version",
+                "TestThresholdValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+                "TestMeasuredValue": "AG35EUTDAR01A05M4G_OCPU_M01-K0009-2025011301",
+                "TestStepElapsedTime": 146,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P241"
+            },
+            {
+                "TestStepName": "TCU Suspend Current Test",
+                "TestThresholdValue": "1mA~3mA",
+                "TestMeasuredValue": "1.6mA",
+                "TestStepElapsedTime": 20442,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P260"
+            },
+            {
+                "TestStepName": "TCU Restore To Normal Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 3155,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P261"
+            },
+            {
+                "TestStepName": "Always Enable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 185,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P013"
+            },
+            {
+                "TestStepName": "Get Supplier Hardware Version",
+                "TestThresholdValue": "H8444A11100",
+                "TestMeasuredValue": "H8444A11100",
+                "TestStepElapsedTime": 84,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P189"
+            },
+            {
+                "TestStepName": "Get TCU Product Date",
+                "TestThresholdValue": "20250623",
+                "TestMeasuredValue": "20250623",
+                "TestStepElapsedTime": 97,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P187"
+            },
+            {
+                "TestStepName": "Compare PCBA Serial Number",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "H8444A11100S60304624",
+                "TestStepElapsedTime": 75,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P185"
+            },
+            {
+                "TestStepName": "Get Product Serial Number",
+                "TestThresholdValue": "YCOT1EBF5234624#",
+                "TestMeasuredValue": "YCOT1EBF5234624#",
+                "TestStepElapsedTime": 84,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P191"
+            },
+            {
+                "TestStepName": "TCU Enter Aging Mode",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 88,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P263"
+            },
+            {
+                "TestStepName": "Disable Security Access",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 170,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P015"
+            },
+            {
+                "TestStepName": "DUT Power Off",
+                "TestThresholdValue": "",
+                "TestMeasuredValue": "",
+                "TestStepElapsedTime": 66,
+                "TestStepResult": "Passed",
+                "TestStepErrorCode": "P006"
+            }
+        ]
+    }
+]
